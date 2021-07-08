@@ -23,3 +23,5 @@ Things you may want to cover:
 
 * Description
 This is the finance tracker app from the Complete Ruby on Rails Developer course
+
+<%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
