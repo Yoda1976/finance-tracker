@@ -1,8 +1,6 @@
 class HomepageController < ApplicationController
-    def home
+    
+    def index
       
-    end
-  
-    def about
     end
   end
