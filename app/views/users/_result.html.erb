@@ -1,6 +1,8 @@
+<div class="results-block">
+  <%= render 'layouts/messages' %>
+</div>
 
-
-% if @stock %>
+<% if @stock %>
   <div class="card card-header mt-3 results-block">
     <strong>Symbol: </strong> <%= @stock.ticker %>
     <strong>Name: </strong> <%= @stock.name %>
